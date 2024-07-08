@@ -32,5 +32,5 @@ jobs:
       run: |
         aws s3 sync \
           --region ap-northeast-2 \
-          dist s3://fe-63-shinnh2-s3 \
+          dist s3://rnts-fe \
           --delete
